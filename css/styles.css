@@ -82,23 +82,75 @@ body.fotos #navegacao a#fotos {
     margin: 0 0 20px 195px;
     background: blue;
 }
-#duas-colunas #primario {
-    width: 555px;
+#primario {
+    width: 270px;
     float: left;
     margin: 0 0 20px 195px;
     background: blue;
+}
+#duas-colunas #primario {
+    width: 555px;
+    
+}
+#uma-coluna #primario {
+    width: 750px;
+    margin: 0 0 20px 0;
 }
 #secundario {
     width: 270px;
     margin: 0 0 20px 15px;
     float: left;
-}
-#lateral {
-    width: 180px;
-    margin: 0 0 20px -750px;
-    float: left;
-
 } 
+
+/*caixa*/
+.caixa  {
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f33f url(../imagens/fundo-caixa.png);
+}
+h2 {
+    font-size: 1.1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+.caixa-conteudo {
+    background:#fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+/*Menus laterais*/
+#lateral ul a {
+   font-size: 0.9em;
+   padding: 3px;
+   display: block;
+   line-height: 30px;
+   color: #000;
+   text-decoration: none;
+   border-bottom: 1px solid #f3f3f3; 
+}
+#lateral ul a:hover {
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+label {
+    display: block;
+    cursor: pointer;
+}
+input {
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #fff;
+    border-color: #a1a1a1;
+}
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color:#b10333;
+    border: 2px solid #870529;
+}
 /*rodape*/
 #container-rodape {
     background: #294c71;
